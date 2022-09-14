@@ -1,4 +1,13 @@
 <head>
+    <<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GHGXYCVH13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GHGXYCVH13');
+</script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +16,6 @@
     <meta name="google" content="notranslate" />
     <meta http-equiv="Content-Language" content="en_US" />
     {% if site.bing_site_verification %}<meta name="msvalidate.01" content="{{site.bing_site_verification}}" />{% endif %}
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
     {% capture title %}{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}{% endcapture %}
     <title>{{ title }}</title>
     <!-- Google+ Authorship -->
