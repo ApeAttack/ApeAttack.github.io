@@ -45,7 +45,7 @@ function initializeClock(id, endtime) {
 var deadline = new Date(Date.parse('2022-10-14T13:55:00Z'));
 
 if (new Date() > deadline) {
-  alert('Ape Attack! \n Buy & hold, tell a friend, support fellow apes! Every Friday @ 9:55am ET!');
+  alert('Ape Attack! \n Buy & Hold. Tell a friend. Support fellow Apes! Every Friday @ 9:55am ET!');
 }
 
 initializeClock('clockdiv', deadline);
